@@ -37,10 +37,10 @@ Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projele
  ### Görev 3
  * ```AuthorController```, ```BookController```, ```CategoryController``` isimli 3 tane controller yazmalısınız.
  * Amacımız CRUD işlemlerini tanımlayan endpointler yazmak. 
- * [GET]/workintech/category => veri tabanaında kayıtlı tüm address bilgilerini döner.
- * [GET]/workintech/category/{id} => İlgili id deki address objesini döner.
- * [POST]/workintech/category => Bir adet address objesini veri tabanına ekler.
- * [PUT]/workintech/category/{id} => İlgili id deki address objesinin değerlerini günceller.
+ * [GET]/workintech/category => veri tabanaında kayıtlı tüm category bilgilerini döner.
+ * [GET]/workintech/category/{id} => İlgili id deki category objesini döner.
+ * [POST]/workintech/category => Bir adet category objesini veri tabanına ekler.
+ * [PUT]/workintech/category/{id} => İlgili id deki category objesinin değerlerini günceller.
  * [DELETE]/workintech/category/{id} => İlgili id değerindeki category objesini siler.(Category silinirse, altındaki kitaplar silinmeli, mi ?)
 
  * [GET]/workintech/book => veri tabanında kayıtlı tüm book bilgilerini döner.
